@@ -25,6 +25,7 @@
  main {
      display: flex;
      flex-flow: column wrap;
+     margin-right: 100px;
  }
 
  /* Navigation bar */
@@ -121,6 +122,7 @@ h2 {
     padding-right: 1rem;
     width: 78%;
     height: 10rem;
+    text-align: right;
 }
 
 /* About Me section */
@@ -265,7 +267,7 @@ h2 {
 }
 
 .opacity:hover {
-    opacity: 40%;
+    opacity: 50%;
 }
 
 .click:active {
@@ -279,7 +281,7 @@ h2 {
     display: flex;
     align-content: flex-end;
     margin-top: 6rem;
-    margin-left: 1rem;
+    margin-left: 4rem;
     padding-top: 1rem;
     padding-right: 1rem;
     font-size: 1.7rem;
@@ -301,7 +303,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 78px;
+    margin-right: 100px;
     padding-top: 17px;
     width: 95%;
     list-style-type: none;
