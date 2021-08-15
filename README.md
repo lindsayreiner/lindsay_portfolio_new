@@ -36,7 +36,7 @@ This will serve as my portfolio page for job seeking.
 
 
 
-Deployed webpage: 
+Deployed webpage: https://lindsayreiner.github.io/lindsay_portfolio_new/
 
 
 <img src="">
