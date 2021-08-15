@@ -87,11 +87,14 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; 
+    
 }
 
 #subtitle {
-    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
     height: 20%;
     font-size: 1.75rem;
     margin-right: 6rem;
@@ -101,6 +104,10 @@ h1 {
     font-weight: bold;
     color: var(--dark);
     background-color: var(--light);
+}
+
+#subtitle-p {
+    
 }
 
 /* Body section headings in the aside */
@@ -291,40 +298,33 @@ h2 {
 
 .footer {
     display: flex;
-    justify-content: flex-start;
-    align-content: center;
+    align-items: center;
     font-size: 1.3rem;
     width: 100%;
     min-height: 75px;
-    
+    border: red 5px solid;
+
 }
 
 .footer-ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-left: 78px;
-    margin-right: 100px;
-    padding-top: 17px;
-    width: 95%;
-    list-style-type: none;
-   
+    width: 100%;
+    padding-left: 40px;
+    border: purple 5px solid;
+    
 }
 
 .footer-li {
     margin: .5em;
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    text-decoration-style: unset;
+    text-decoration-skip-ink: none;
 }
 
 .footer-a-tag {
-    display: flex;
-    align-items: flex-end;
-    color: var(--muted);
-    font-weight: bold;
-    padding: 20px;
-    
+    text-decoration: none;
+    color: var(--dark)
 }
 
 
