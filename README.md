@@ -34,15 +34,17 @@ This will serve as my portfolio page for job seeking.
 2. CLickable images that bring employer to my work.
 3. Flexbox navigation and footer.
 
-
+<br>
 
 Deployed webpage: https://lindsayreiner.github.io/lindsay_portfolio_new/
 
+<br>
+<img src="assets\images\Portfolio.jpg">
 
-<img src="">
+<br>
+<br>
 
-
-## Contact
+# Contact
 
 If you want to contact me you can reach me at lindsayreiner@hey.com
 
