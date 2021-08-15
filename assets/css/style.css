@@ -302,8 +302,6 @@ h2 {
     font-size: 1.3rem;
     width: 100%;
     min-height: 75px;
-    border: red 5px solid;
-
 }
 
 .footer-ul {
@@ -311,8 +309,8 @@ h2 {
     justify-content: space-between;
     width: 100%;
     padding-left: 40px;
-    border: purple 5px solid;
-    
+    padding-right: 80px;
+
 }
 
 .footer-li {
