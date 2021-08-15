@@ -1,3 +1,5 @@
+/* Color palette */
+
 :root {
     --dark: #0f0909;
     --light: #dad9d8;
@@ -7,6 +9,7 @@
     --headlineborder: #150922;
  }
 
+ /* General page layout */
  html {
      height: 100%;
      width: 100%;
@@ -23,6 +26,8 @@
      display: flex;
      flex-flow: column wrap;
  }
+
+ /* Navigation bar */
 
  #header {
     display: flex;
@@ -70,6 +75,8 @@ h1 {
     text-decoration-thickness: 3px;
 }
 
+/* Banner with subtitle */
+
 .subtitleContainer {
     display: flex;
     justify-content: flex-end;
@@ -95,6 +102,7 @@ h1 {
     background-color: var(--light);
 }
 
+/* Body section headings in the aside */
  
 aside {
     float: left;
@@ -109,6 +117,14 @@ h2 {
     height: 7rem;
 }
 
+.title {
+    padding-right: 1rem;
+    width: 78%;
+    height: 10rem;
+}
+
+/* About Me section */
+
 .content {
     display: flex;
     justify-content: flex-start;
@@ -120,11 +136,7 @@ h2 {
     
 }
 
-.title {
-    padding-right: 1rem;
-    width: 78%;
-    height: 10rem;
-}
+/* Work section */
 
 .projects {
     padding-top: 100px;
@@ -252,6 +264,17 @@ h2 {
     padding-right: 6px;
 }
 
+.opacity:hover {
+    opacity: 40%;
+}
+
+.click:active {
+    transform: translateY(4px);
+}
+
+
+/* Footer */
+
 .contactTitle {
     display: flex;
     align-content: flex-end;
@@ -302,7 +325,7 @@ h2 {
 }
 
 
-
+/* Adjust for mobile */
 
 /* @media screen and (max-width: 992px) {
     flex-direction: column;
